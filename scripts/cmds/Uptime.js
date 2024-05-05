@@ -29,7 +29,7 @@ Math.floor(uptime / (3600 * 24));
       
       const uptimeString = `${days}days ${hours}𝑯𝒓𝒔 ${minutes}𝑴𝒊𝒏 ${seconds}𝑺𝒆𝒄`;
       
-      api.sendMessage(`✨| ✿𝐓𝐄𝐌𝐏𝐒 𝐃'𝐀𝐂𝐓𝐈𝐕𝐈𝐓𝐄 𝐃𝐔 𝐁𝐎𝐓✿\n☞ ${uptimeString}\n\n✡ | 𝐔𝐭𝐢𝐥𝐢𝐬𝐚𝐭𝐞𝐮𝐫𝐬 𝐭𝐨𝐭𝐚𝐥𝐬\n☞ ${allUsers.length}\n🎗| 𝐆𝐫𝐨𝐮𝐩𝐞 𝐭𝐨𝐭𝐚𝐥\n☞ ${allThreads.length}`, event.threadID);
+      api.sendMessage(`𝐁𝐎𝐓 𝐔𝐏𝐓𝐈𝐌𝐄\n☞ ${uptimeString}\n\n✡ | 𝐔𝐒𝐄𝐑𝐒 𝐭𝐨𝐭𝐚𝐥𝐬\n☞ ${allUsers.length}\n🎗| 𝐆𝐫𝐨𝐮𝐩𝐞 𝐭𝐨𝐭𝐚𝐥\n☞ ${allThreads.length}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
